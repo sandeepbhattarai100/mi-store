@@ -1,0 +1,18 @@
+.heading{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin:10px;
+}
+
+.heading >div{
+height: 1px;
+width:60vh;
+background-color: rgba(39, 39, 39, 0.274);
+}
+
+.heading >p{
+    margin: 0 50px ;
+    font-size: 32px;
+color: rgb(105, 102, 102);
+}

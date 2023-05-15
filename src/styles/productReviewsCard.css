@@ -1,0 +1,21 @@
+
+
+.productReviewsCard >h5{
+    color: rgb(85, 75, 75);
+    margin-top: 5px;
+
+}
+.productReviewsCard >span{
+    color: rgb(121, 114, 114);
+font-size: 18px;
+}
+.productReviewsCard >p{
+color: rgb(148, 138, 138);
+}
+
+.productReviewsCard:hover{
+    scale: 1.01;
+    transition: all 0.5s;
+    box-shadow:1px 1px 1px 1px rgba(164, 162, 162, 0.363);
+}
+

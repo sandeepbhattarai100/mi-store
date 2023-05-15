@@ -1,0 +1,50 @@
+.prefoot1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.prefoot1 >div{
+    display: flex;
+justify-content: center;
+align-items: center;
+    margin: 20px;
+    color: rgb(110, 107, 107);
+
+}
+
+.prefoot1 >div >p{
+margin-left: 20px;
+}
+
+.prefoot2{
+    display: flex;
+    width: 90vw;
+    margin: auto;
+    color: rgb(126, 116, 116);
+    justify-content: space-around;
+    background-color: rgba(231, 220, 220, 0.133);
+}
+.prefoot2>div>span{
+margin-left: 20px;
+}
+
+.footer{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    padding: 4.5vmax;
+    background-color: rgb(19, 19, 19);
+    color: white;
+}
+.footer >div{
+margin: 1vmax;
+display: flex;
+flex-direction: column;
+}
+
+.footer >div >a{
+    color: white;
+    text-decoration: none;
+padding: 5px;
+}

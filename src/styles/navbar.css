@@ -1,0 +1,68 @@
+.nav{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    background-color: white;
+justify-content: center;
+    padding: 1vmax;
+    border-bottom: 1px solid rgba(215, 215, 215, 0.595);
+z-index: 1000;
+position: sticky;
+top: 0;
+}
+
+#logoImage{
+width: 57px;
+transition: all 0.2s;
+object-fit: cover;
+cursor: pointer;
+}
+
+.navlinks{
+padding-left: 15px;
+text-decoration: none;
+color: black;
+font-weight: 500;
+font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+.navlinks:hover{
+    color:orangered;
+    text-decoration: none;
+}
+
+.searchbox{
+    position: relative;
+   left:5vmax;
+   display: flex;
+   align-items: center;
+}
+
+.searchbox >input{
+border: none;
+width: 15vmax;
+outline: none;
+font-size: 1.1vmax;
+color: rgb(134, 132, 132);
+border-bottom: 1px solid rgb(228, 222, 222);
+margin-right: 5px;
+text-align: center;
+}
+
+.MuiSvgIcon-root{
+color: orange;
+border: 1px solid orange;
+border-radius:5px;
+
+}
+
+.MuiSvgIcon-root:hover{
+    color: white;
+    background-color: orangered;
+    cursor: pointer;
+
+
+    }
+
+
+
+

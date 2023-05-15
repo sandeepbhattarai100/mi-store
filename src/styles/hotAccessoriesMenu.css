@@ -1,0 +1,22 @@
+.HotAccessoriesMenu{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30px;
+
+}
+
+.homeAccessLinks{
+color: rgb(131, 110, 110);
+font-size: 25px;
+padding:0px 20px;
+cursor: pointer;
+
+}
+
+.homeAccessLinks:hover{
+    text-decoration: none;
+    color: orangered;
+    transform: scale(1.1);
+
+}
