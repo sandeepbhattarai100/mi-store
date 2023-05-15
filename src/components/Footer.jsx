@@ -72,11 +72,11 @@ const Footer = ({ footer }) => {
         </div>
       </div>
       <div className="footer">
-        <div>
+        <div >
           <p>support</p>
 
           {footer.support.map((item, index) => (
-            <Link to={item.url}>{item.name}</Link>
+            <Link to={item.url} key={index}>{item.name}</Link>
           ))}
         </div>
         <div>

@@ -15,32 +15,55 @@ const NavBar = () => {
           />
         </Link>
       </div>
-
-      <Link className="navlinks" to="/miphones">
+      {/*
+      <Link className="navlinks" to="/#miphones">
         Mi Phones
       </Link>
-      <Link className="navlinks" to="/redmiphones">
+      <Link className="navlinks" to="/#redmiphones">
         Redmi Phones
       </Link>
-      <Link className="navlinks" to="/tv">
+      <Link className="navlinks" to="/#tv">
         TV
       </Link>
-      <Link className="navlinks" to="/laptops">
+      <Link className="navlinks" to="/#laptops">
         Laptops
       </Link>
-      <Link className="navlinks" to="/lifestyle">
+      <Link className="navlinks" to="/#lifestyle">
         Fitness & Lifestyle
       </Link>
-      <Link className="navlinks" to="/home">
+      <Link className="navlinks" to="/#home">
         Home
       </Link>
-      <Link className="navlinks" to="/audio">
+      <Link className="navlinks" to="/#audio">
         Radio
       </Link>
-      <Link className="navlinks" to="/accessories">
+      <Link className="navlinks" to="/#accessories">
         Accessories
-      </Link>
-
+      </Link> */}
+      <a className="navlinks" href="/miphones">
+        Mi Phones
+      </a>
+      <a className="navlinks" href="/redmiphones">
+        Redmi Phones
+      </a>
+      <a className="navlinks" href="/tv">
+        TV
+      </a>
+      <a className="navlinks" href="/laptops">
+        Laptops
+      </a>
+      <a className="navlinks" href="/lifestyle">
+        Fitness & Lifestyle
+      </a>
+      <a className="navlinks" href="/home">
+        Home
+      </a>
+      <a className="navlinks" href="/audio">
+        Radio
+      </a>
+      <a className="navlinks" href="/accessories">
+        Accessories
+      </a>
       <div className="searchbox">
         <input type="text" name="search" placeholder="Search Products" />
         <SearchOutlinedIcon />
