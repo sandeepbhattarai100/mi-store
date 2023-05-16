@@ -3,6 +3,8 @@ background-color:black;
 color: white;
 display: flex;
 justify-content: space-between;
+white-space: nowrap;
+width: 100vw;
 }
 
 .preNav >div{
@@ -31,4 +33,19 @@ font-size: 0.8vmax;
 
 .preNav>div>a:hover{
 color: white;
+}
+@media screen and (min-width: 360px) and (max-width: 600px) {
+   .preNav{
+    flex-direction: column;
+    align-items: flex-start;
+
+    
+   } 
+   .preNav >div >a{
+    font-size: 1.3vmax;
+
+
+   }
+
+    
 }

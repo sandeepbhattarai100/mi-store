@@ -2,6 +2,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-wrap: wrap;
 
 }
 
@@ -20,20 +21,22 @@ margin-left: 20px;
 
 .prefoot2{
     display: flex;
-    width: 90vw;
+    flex-wrap: wrap;
+    align-items: center;
+    width: 100vw;
     margin: auto;
     color: rgb(126, 116, 116);
     justify-content: space-around;
     background-color: rgba(231, 220, 220, 0.133);
 }
 .prefoot2>div>span{
-margin-left: 20px;
+margin-left: 10px;
 }
 
 .footer{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-    padding: 4.5vmax;
+    padding: 3.8vmax;
     background-color: rgb(19, 19, 19);
     color: white;
 }
@@ -48,3 +51,12 @@ flex-direction: column;
     text-decoration: none;
 padding: 5px;
 }
+@media screen and (min-width: 360px) and (max-width: 600px) {
+    .footer>div{
+        font-size: 10px !important;}
+    }
+       
+      
+    
+    
+

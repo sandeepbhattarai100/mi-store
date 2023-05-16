@@ -4,13 +4,13 @@
 width: 90%;
 }
 
-.hotAccessories> div:first-child > img{
+.hotAccessories>div:first-child > img{
     cursor: pointer;
     transition: all 0.5s;
     width: 22vw;
   }
 
-  .hotAccessories > div:first-child > img:hover{
+  .hotAccessories>div:first-child > img:hover{
     transform: translateY(-0.4vmax);
     box-shadow: 0px 6px 15px rgba(53, 53, 53, 0.363);
 
@@ -20,3 +20,15 @@ width: 90%;
     display: flex;
     flex-wrap: wrap;
   }
+  @media screen and (min-width: 360px) and (max-width: 850px) {
+    .hotAccessories{
+      flex-direction: column;
+    }
+    .hotAccessories>div:first-child >{
+      width: 0;
+      height: 0;
+    }
+
+     
+}
+ 

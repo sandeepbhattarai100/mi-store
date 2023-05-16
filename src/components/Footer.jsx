@@ -97,12 +97,7 @@ const Footer = ({ footer }) => {
             <Link to={item.url}>{item.name}</Link>
           ))}
         </div>
-        <div>
-          <p>Contact Us</p>
-          {footer.contactUs.map((item, index) => (
-            <Link to={item.url}>{item.name}</Link>
-          ))}
-        </div>
+      
       </div>
     </div>
   );

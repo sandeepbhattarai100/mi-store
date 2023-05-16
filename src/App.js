@@ -23,7 +23,8 @@ function App() {
   return (
     <>
       <BrowserRouter>
-        <PreNav />
+      <div className="app">
+      <PreNav />
         <NavBar />
         <NavOptios miPhones={data.miPhones} redmiPhones={data.redmiPhones} tv={data.tv} laptop={data.laptop} fitnessAndLifeStyle={data.fitnessAndLifeStyle} home={data.home} audio={data.audio}  accessories={data.accessories}/>
         <Slider start={data.banner.start} />
@@ -52,6 +53,9 @@ function App() {
         <Banner banner={data.banner.end} />
         <Footer footer={data.footer} />
 
+
+      </div>
+       
       </BrowserRouter>
     </>
 
