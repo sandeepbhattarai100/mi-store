@@ -27,9 +27,7 @@ font-weight: 500;
     transition: all 1s;
 }
 @media screen and (min-width: 360px) and (max-width: 600px) {
-    .HotItemCard{
-       
-    }
+
     .HotItemCard >img{
         width:50%;
         height:40%
